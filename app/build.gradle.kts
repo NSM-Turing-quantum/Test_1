@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.test_1_1"
+    namespace = "com.example.hometask_4"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.test_1_1"
+        applicationId = "com.example.hometask_4"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -51,4 +51,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
 }
